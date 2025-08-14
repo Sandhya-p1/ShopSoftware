@@ -1,0 +1,119 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+body {
+  background-color: rgb(1, 1, 34);
+  color: wheat;
+}
+
+.dashboardNav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10%;
+}
+.dashboardNav nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 20px;
+  padding: 10px;
+}
+.logoutBtn {
+  background-color: rgb(1, 1, 48);
+  border: none;
+  color: wheat;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+}
+a {
+  color: inherit; /* Use the parent text color */
+  text-decoration: none; /* Remove underline */
+}
+.tableData {
+  display: block;
+  /* align-items: center; */
+  place-items: center;
+}
+table {
+  border: 2px solid wheat;
+  width: 90%;
+  height: fit-content;
+}
+th {
+  border-bottom: 1px solid wheat;
+  padding: 10px;
+}
+td {
+  padding: 8px;
+  text-align: center;
+  border-bottom: 1px solid rgb(72, 70, 70);
+}
+.addingStockForm {
+  display: grid;
+  gap: 10px;
+  align-items: center;
+}
+.authForm {
+  display: grid;
+  gap: 10px;
+  align-items: center;
+  width: 70%;
+  margin: auto;
+}
+.addingStockForm,
+/* .authForm */
+ input {
+  padding: 10px 8px 4px 6px;
+  font-size: medium;
+  border: 2px solid wheat;
+  outline: none;
+  background-color: rgb(234, 225, 208);
+  color: rgb(2, 2, 48);
+}
+.addingStockForm,
+/* .authForm  */
+button {
+  padding: 10px 8px 4px 6px;
+  font-size: medium;
+  border: none;
+  outline: none;
+  background-color: rgb(234, 225, 208);
+  color: rgb(2, 2, 48);
+  font-weight: 600;
+}
+.addingStockForm,
+/* .authForm */
+ button:hover {
+  background-color: rgb(2, 68, 2);
+  cursor: pointer;
+  border: none;
+  transition: 0.2s linear;
+  color: wheat;
+}
+.authBtn {
+  padding: 8px;
+  font-size: large;
+  border-radius: 2px;
+  border: none;
+  outline: none;
+  background-color: rgb(1, 116, 1);
+  font-weight: 600;
+  width: 20%;
+  color: white;
+}
+.authBtn:hover {
+  cursor: pointer;
+  background-color: rgb(2, 68, 2);
+  transition: 0.2s linear;
+}
+#removingStockForm button:hover {
+  background-color: rgb(116, 7, 7);
+}
+.authPage {
+  margin-top: 10%;
+}
