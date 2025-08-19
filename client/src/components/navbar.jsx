@@ -1,5 +1,6 @@
 import React from "react";
 import Logout from "../pages/logout";
+import ViewSales from "../pages/viewSales";
 
 function Navbar() {
   return (
@@ -20,6 +21,9 @@ function Navbar() {
           <a href="/reducestock">
             {" "}
             <h3>Reduce Stock</h3>
+          </a>
+          <a href="/viewSales">
+            <h3> View Sales</h3>
           </a>
           <Logout />
         </nav>

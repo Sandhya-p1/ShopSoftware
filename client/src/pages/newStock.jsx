@@ -40,7 +40,7 @@ export default function NewStock() {
 
   return (
     <div>
-      <h1>New Stock </h1>
+      <h1>New Stock</h1>
       <Navbar />
       <form className="addingStockForm" onSubmit={handleAddingStock}>
         <input

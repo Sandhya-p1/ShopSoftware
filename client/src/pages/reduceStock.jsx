@@ -12,7 +12,7 @@ function ReduceStock() {
     e.preventDefault();
     try {
       const res = await fetch("http://localhost:4000/stockAuth/reduceStock", {
-        method: "DELETE",
+        method: "PUT",
         credentials: "include",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({

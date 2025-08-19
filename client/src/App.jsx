@@ -9,6 +9,10 @@ import Logout from "./pages/logout";
 import ReduceStock from "./pages/reduceStock";
 import NewStock from "./pages/newStock";
 import ViewStock from "./pages/viewStock";
+import ViewSales from "./pages/viewSales";
+import MonthlySales from "./pages/monthlySales";
+import YearlySales from "./pages/yearlySales";
+import DailySales from "./pages/dailySales";
 function App() {
   return (
     <>
@@ -22,6 +26,10 @@ function App() {
           <Route path="/viewstock" element={<ViewStock />} />
           <Route path="/newstock" element={<NewStock />} />
           <Route path="/reducestock" element={<ReduceStock />} />
+          <Route path="/viewSales" element={<ViewSales />}></Route>
+          <Route path="/monthlySales" element={<MonthlySales />}></Route>
+          <Route path="/yearlySales" element={<YearlySales />}></Route>
+          <Route path="/dailySales" element={<DailySales />}></Route>
         </Routes>
       </Router>
     </>
